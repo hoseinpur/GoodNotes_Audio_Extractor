@@ -18,7 +18,7 @@ To run the GoodNotes Audio Extractor script, you'll need:
 1. Clone this repository to your local machine or download the script file directly.
 2. Ensure you have Python 3.x installed.
 3. Place your GoodNotes files (.goodnotes) in the same directory as the script.
-4. Run the script using the command `GoodNotes_Audio_Extractor.py`.
+4. Run the script using the command `python3 GoodNotes_Audio_Extractor.py`.
 5. The extracted audio files will be saved in a new directory with the same name as the GoodNotes file, suffixed with "_Extracted_Audio_Files".
 
 ## What to Consider

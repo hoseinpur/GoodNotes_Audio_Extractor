@@ -9,10 +9,6 @@ def parse_prefix(line, fmt):
     '''
     Parses the prefix from a line with the specified format.
     
-    Args:
-        line (str): The line to parse.
-        fmt (str): The format of the prefix.
-    
     Returns:
         str: The parsed prefix.
     '''
@@ -30,8 +26,7 @@ def extract_voice_files(goodnotes_file, output_dir):
     '''
     Extracts audio files from a GoodNotes file and renames them.
     
-    Args:
-        goodnotes_file (str): The path to the GoodNotes file.
+    Returns:
         output_dir (str): The directory to save the extracted audio files.
     '''
     # Create output directory if it doesn't exist
